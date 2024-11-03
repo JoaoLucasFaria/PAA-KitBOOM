@@ -41,8 +41,8 @@ int le_arquivo_composicao(const char *filename, Grafo *g, Completude *completude
     FILE *arquivo = fopen(filename, "r");
     if (arquivo == NULL)
     {
-        printf("Erro ao abrir o arquivo composição.txt\n");
-        return 0;
+        printf("Erro ao abrir o arquivo composição.\n");
+        exit(EXIT_FAILURE);
     }
 
     int i = 0;
@@ -60,8 +60,8 @@ int le_arquivo_configuracao(const char *filename, Grafo *g, FILE *saida)
     FILE *file = fopen(filename, "r");
     if (file == NULL)
     {
-        printf("Erro ao abrir o arquivo %s\n", filename);
-        return 0;
+        printf("Erro ao abrir o arquivo configuração.\n");
+        exit(EXIT_FAILURE);
     }
 
     BarraExplosivo barra;
