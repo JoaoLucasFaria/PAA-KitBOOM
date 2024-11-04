@@ -1,11 +1,6 @@
 // main.c
 #include "tp.h"
-#include <getopt.h>
-#include <stdio.h>
-#include <string.h>
-#include <sys/resource.h>
-#include <sys/time.h>
-#include <stdlib.h>
+#include "grafo.h"
 
 int main(int argc, char *argv[])
 {
