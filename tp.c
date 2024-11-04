@@ -97,7 +97,7 @@ int le_arquivo_configuracao(const char *filename, Grafo *g, FILE *saida)
         adiciona_barra(g, barra);
 
         // Verifica se excedeu o número máximo de barras permitidas
-        if (g->num_barras >= MAX_BARRAS)
+        if (g->num_barras > MAX_BARRAS)
         {
             printf("Erro: Excedido o número máximo de barras permitidas.\n");
             //fprintf(saida, "Nao\n");
