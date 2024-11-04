@@ -1,3 +1,5 @@
+//ONLY FOR WINDOWS WORKSPACE PURPOSE
+
 /* getopt.h */
 /* Declarations for getopt.
    Copyright (C) 1989-1994, 1996-1999, 2001 Free Software 
