@@ -3,6 +3,7 @@
 
 #define MAX_BARRAS 36
 #include "tp.h"
+#include "grafo.h"
 #include <getopt.h>
 #include <stdio.h>
 #include <string.h>
