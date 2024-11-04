@@ -2,8 +2,8 @@
 #ifndef TP_H
 #define TP_H
 
-#include "getopt.h"
 #include "grafo.h"
+#include <getopt.h>
 #include <stdio.h>
 #include <string.h>
 #include <sys/resource.h>
