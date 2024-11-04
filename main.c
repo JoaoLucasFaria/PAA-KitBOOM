@@ -1,7 +1,11 @@
 // main.c
-#include "getopt.h"
 #include "tp.h"
-#include "grafo.h"
+#include <getopt.h>
+#include <stdio.h>
+#include <string.h>
+#include <sys/resource.h>
+#include <sys/time.h>
+#include <stdlib.h>
 
 int main(int argc, char *argv[])
 {
@@ -44,7 +48,7 @@ int main(int argc, char *argv[])
         free_all(&g);
         fprintf(saida, "Sim\n");
     }
-    else fprintf(saida, "Nao\n");
+    else fprintf(saida, "Não\n");
     imprime_uso(memoria, start, end, tempo);
     exit(1);
 }
