@@ -1,7 +1,7 @@
 CC=gcc
 CFLAGS=-I.
-DEPS = tp.h grafo.h getopt.h
-OBJ = main.o tp.o grafo.o getopt.o
+DEPS = tp.h grafo.h
+OBJ = main.o tp.o grafo.o
 EXEC = tp
 
 %.o: %.c $(DEPS)
