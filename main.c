@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
     }
 
     // Verifica o posicionamento
-    if (verificar_posicionamento(&g, &*saida) && e != 0)
+    if (verificar_posicionamento(&g, &*saida) && e == 0)
     {
         printf("O posicionamento das barras está correto e o Kit pode ser montado\n");
         free_all(&g);
