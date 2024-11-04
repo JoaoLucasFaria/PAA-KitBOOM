@@ -34,8 +34,6 @@ int main(int argc, char *argv[])
         e++;
     }
 
-
-
     // Verifica o posicionamento
     if (verificar_posicionamento(&g, &*saida) && e != 0)
     {
