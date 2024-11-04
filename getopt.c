@@ -1,4 +1,4 @@
-//ONLY FOR WINDOWS WORKSPACE PURPOSE
+//ONLY FOR WINDOWS WORKSPACE PURPOSE. ADD "getopt.h" IN INCLUDE
 
 /* Getopt for GNU.
    NOTE: getopt is now part of the C library, so if you don't know what
