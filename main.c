@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
     le_arquivo_composicao(arquivo_composicao, &g, &completude, &*saida);
 
     // Verifica a completude
-    if (verificar_completude(&g, &completude))
+    if (verificar_completude(&g, &completude) && e == 0)
     {
         printf("O kit está completo.\n");
     }
