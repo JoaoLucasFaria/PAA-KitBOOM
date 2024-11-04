@@ -1,11 +1,6 @@
 // tp.c
 #include "tp.h"
-#include <getopt.h>
-#include <stdio.h>
-#include <string.h>
-#include <sys/resource.h>
-#include <sys/time.h>
-#include <stdlib.h>
+#include "grafo.h"
 
 int config_opt(int argc, char *argv[], char **arquivo_composicao, char **arquivo_configuracao)
 {
