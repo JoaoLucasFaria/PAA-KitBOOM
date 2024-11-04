@@ -1,4 +1,4 @@
-//ONLY FOR WINDOWS WORKSPACE PURPOSE
+//ONLY FOR WINDOWS WORKSPACE PURPOSE. ADD "getopt.h" IN INCLUDE
 
 /* getopt.h */
 /* Declarations for getopt.
