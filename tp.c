@@ -1,6 +1,6 @@
 // tp.c
-#include "getopt.h"
 #include "tp.h"
+#include <getopt.h>
 #include <stdio.h>
 #include <string.h>
 #include <sys/resource.h>
@@ -41,7 +41,7 @@ int le_arquivo_composicao(const char *filename, Grafo *g, Completude *completude
     FILE *arquivo = fopen(filename, "r");
     if (arquivo == NULL)
     {
-        printf("Erro ao abrir o arquivo composição.\n");
+        printf("\nErro ao abrir o arquivo composição. Certifique-se de que o comando esteja na forma:\n ./tp -c arquivo_composição.txt -k arquivo_configuração.txt\n\n");
         exit(EXIT_FAILURE);
     }
 
@@ -60,7 +60,7 @@ int le_arquivo_configuracao(const char *filename, Grafo *g, FILE *saida)
     FILE *file = fopen(filename, "r");
     if (file == NULL)
     {
-        printf("Erro ao abrir o arquivo configuração.\n");
+        printf("\nErro ao abrir o arquivo configuração. Certifique-se de que o comando esteja na forma:\n./tp -c arquivo_composição.txt -k arquivo_configuração.txt\n\n");
         exit(EXIT_FAILURE);
     }
 
